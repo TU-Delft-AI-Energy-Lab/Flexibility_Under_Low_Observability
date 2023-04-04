@@ -1,5 +1,12 @@
 # Study Case Flexibility with Low Observability
 This code runs power flow-based simulations on the PandaPower CIGRE MV with PV and WT DER for flexibility estimation.
+
+## Citation:
+If you use this code, please cite our corrsponding paper whose study case is implemented either by:
+    - Using the cite option at the right of your screen
+    - Through the scholar url: TBD
+    - Through the doi: TBD
+
 ## Algorithm:
 The algorithm structure is:
 <img src="plots/readme_figures/algorithm.png" width="800">
@@ -103,4 +110,18 @@ If false, a figure will be created for each filename
     - legends: list of strings with the titles for each of the filenames above
     - operating_points: list of the initial PQ values of each of the filenames. These values can be obtained by running each of the json files of these scenarios and saving the PCC PQ printed on the output window, e.g. <img src="plots/readme_figures/pcc_pq.png" width="800">
     - output type: string of the type of figures saved, e.g."png", "jpg", "svg" 
+    
+
+    
+## License
+Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
+
+This work is licensed under a
+[Creative Commons Attribution 4.0 International License][cc-by].
+
+[![CC BY 4.0][cc-by-image]][cc-by]
+
+[cc-by]: http://creativecommons.org/licenses/by/4.0/
+[cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
+[cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
     
