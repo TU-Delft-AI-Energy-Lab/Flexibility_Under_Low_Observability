@@ -2,12 +2,10 @@
 This code runs power flow-based simulations on the PandaPower CIGRE MV with PV and WT DER for flexibility estimation.
 
 ## Citation:
-If you use this code, please cite our corresponding paper "Exploring Operational Flexibility of Active
-Distribution Networks with Low Observability" whose study case is implemented either by:
-- Through the scholar url: TBD
-- Through the doi: TBD
-- Using the cite option at the right of your screen
+This repository contains code for the paper:
 
+Demetris Chrysostomou, Jose L.R. Torres, Jochen L. Cremer, "Exploring Operational Flexibility of Active
+Distribution Networks with Low Observability" to appear at IEEE PowerTech 2023, Belgrade, Serbia
 
 ## Algorithm:
 The algorithm structure is:
