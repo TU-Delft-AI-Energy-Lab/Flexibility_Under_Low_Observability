@@ -1,38 +1,39 @@
 cff-version: 1.2.0
-message: "If you use this software, please cite it as below."
+title: >-
+  Case Study for Exploring Operational Flexibility of Active
+  Distribution Networks with Low Observability
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
 authors:
-- family-names: "Chrysostomou"
-  given-names: "Demetris"
-  orcid: "https://orcid.org/0000-0002-3564-4629"
-- family-names: "Rueda Torres"
-  given-names: "Jose Luis"
-  orcid: "https://orcid.org/0000-0001-7288-0228"
-- family-names: "Lorenz Cremer"
-  given-names: "Jochen"
-  orcid: "https://orcid.org/0000-0001-9284-5083"
-title: "Study Case Flexibility with Low Observability"
-version: 2.0.4
-doi: "10.4121/90879797-abec-4e87-bb3a-f21cb2c5eb0f"
-date-released: TBD
-url: "https://github.com/TU-Delft-AI-Energy-Lab/Flexibility_Under_Low_Observability"
-preferred-citation:
-  type: conference-paper
-  authors:
-- family-names: "Chrysostomou"
-  given-names: "Demetris"
-  orcid: "https://orcid.org/0000-0002-3564-4629"
-- family-names: "Rueda Torres"
-  given-names: "Jose Luis"
-  orcid: "https://orcid.org/0000-0001-7288-0228"
-- family-names: "Lorenz Cremer"
-  given-names: "Jochen"
-  orcid: "https://orcid.org/0000-0001-9284-5083"
-  doi: "TBD"
-  journal: "TBD"
-  month: TBD
-  start: TBD # First page number
-  end: TBD # Last page number
-  title: "TBD"
-  issue: TDB
-  volume: TBD
-  year: 2023
+  - given-names: Demetris
+    family-names: Chrysostomou
+    email: D.Chrysostomou@tudelft.nl
+    affiliation: 'IEPG, EEMCS, TU Delft'
+    orcid: 'https://orcid.org/0000-0002-3564-4629'
+  - given-names: Jose Luis
+    family-names: Rueda Torres
+    orcid: 'https://orcid.org/0000-0001-7288-0228'
+    affiliation: 'IEPG, EEMCS, TU Delft'
+    email: J.L.RuedaTorres@tudelft.nl
+  - given-names: Jochen Lorenz
+    orcid: 'https://orcid.org/0000-0001-9284-5083'
+    family-names: Cremer
+    affiliation: 'IEPG, EEMCS, TU Delft'
+    email: J.L.Cremer@tudelft.nl
+repository-code: >-
+  https://github.com/TU-Delft-AI-Energy-Lab/Flexibility_Under_Low_Observability
+abstract: |2-
+    This repository contains the code for the study case for the paper:
+    Demetris Chrysostomou, Jose L.R. Torres, Jochen L. Cremer,
+    "Exploring Operational Flexibility of Active Distribution Networks with Low Observability" to appear at
+    IEEE PowerTech 2023, Belgrade, Serbia
+keywords:
+  - Distribution networks
+  - Distribution network flexibility
+  - Flexibility
+  - Power grid observability
+  - Distribution network observability
+  - Monte Carlo sampling
+license: CC-BY-4.0
